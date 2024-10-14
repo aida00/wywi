@@ -16,12 +16,13 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/bootstrap": "^3.32",
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-project-message": "^9.5",
         "drupal/core-recommended": "^9.5",
         "drupal/core-vendor-hardening": "^9.5",
-        "drush/drush": "^11.6"
-    },
+        "drupal/upgrade_status": "^4.3"
+          },
     "conflict": {
         "drupal/drupal": "*"
     },
@@ -93,5 +94,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "palantirnet/drupal-rector": "^0.20.3"
     }
 }

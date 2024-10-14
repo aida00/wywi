@@ -1,15 +1,15 @@
 {
   "name": "drupal/token",
   "type": "drupal-module",
-  "license": "GPL-2.0+",
+  "license": "GPL-2.0-or-later",
   "description": "Provides a user interface for the Token API, some missing core tokens.",
-  "require": {
-      "drupal/core": "^8.7.7 || ^9"
+  "require-dev": {
+    "drupal/book": "*"
   },
   "extra": {
     "drush": {
       "services": {
-        "drush.services.yml": "^9 || ^10"
+        "drush.services.yml": ">=9"
       }
     }
   }
